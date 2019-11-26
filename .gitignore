@@ -1,0 +1,15 @@
+# Mac Gitignore
+.DS_Store
+
+# Keys
+keys/
+*.pem
+
+# Logs
+*.log
+
+# Env variables
+.env
+
+# Website data
+www/
