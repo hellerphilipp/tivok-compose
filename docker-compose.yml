@@ -19,6 +19,8 @@ services:
       POSTGRES_DB: tivok
       POSTGRES_USER: tivok
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD_PROD}
+    volumes:
+      - ./dbdata:/var/lib/postgresql/data
   nginx:
     image: nginx:alpine
     restart: unless-stopped

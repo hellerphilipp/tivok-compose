@@ -13,3 +13,6 @@ keys/
 
 # Website data
 www/
+
+# Database contents
+dbdata/
